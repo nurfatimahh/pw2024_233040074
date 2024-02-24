@@ -14,9 +14,9 @@
             echo "<tr>";
             for ($j = 1; $j <= 5; $j++) {
                 if (($i + $j) % 2 == 0) {
-                    echo "<td height='50px' width='50px' style='background color: black; border: 2px solid black';></td>";
+                    echo "<td height='50px' width='50px' style='background-color: black; border: 2px solid black';></td>";
                 } else {
-                    echo "<td height='50px' width='50px' style='background color: white; border: 2px solid black';></td>";
+                    echo "<td height='50px' width='50px' style='background-color: white; border: 2px solid black';></td>";
                 }
             }
             echo "</tr>";
