@@ -1,15 +1,15 @@
 <?php
 
-function urutanAngka($angka)
+function urutan_Angka($angka)
 {
-    $currentNumber = 1;
+    $nomor = 1;
     for ($i = 1; $i <=$angka; $i++){
         for ($j = 1; $j <= $i; $j++){
-            echo $currentNumber. " ";
-            $currentNumber++;
+            echo $nomor. " ";
+            $nomor++;
         }
         echo "<br>";
     }
 }
 
-urutanAngka(5);
+urutan_Angka(5);
